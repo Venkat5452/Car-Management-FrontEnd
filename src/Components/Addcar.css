@@ -1,0 +1,112 @@
+/* AddCar.css */
+.add-car-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-car-form h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-car-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-car-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .add-car-form input,
+  .add-car-form textarea {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .add-car-form input[type="file"] {
+    padding: 5px;
+  }
+  
+  .add-car-form textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .add-car-form input[type="text"],
+  .add-car-form textarea {
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-car-form .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .add-car-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Space between buttons */
+  }
+  
+  .add-car-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-car-form .cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-car-form .cancel-button:hover {
+    background-color: #e53935;
+  }
+  
+  .add-car-form .image-previews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .add-car-form .image-previews img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-car-form .image-previews h3 {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  

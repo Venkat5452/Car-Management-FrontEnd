@@ -1,0 +1,106 @@
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Logo styling */
+  .logo-container .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation menu */
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation ul li {
+    margin: 0 15px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  /* Hide menu on small screens */
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .menu-icon .bar {
+    background-color: white;
+    height: 4px;
+    width: 100%;
+  }
+  
+  /* Show navigation when menu is open (for small screens) */
+  .navigation.active {
+    display: block;
+  }
+  
+  .navigation.active ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navigation.active ul li {
+    margin: 10px 0;
+  }
+  
+  /* Responsive design: On screens smaller than 768px */
+  @media (max-width: 768px) {
+    /* Collapsed navigation */
+    .navigation {
+      display: none;
+      width: 100%;
+    }
+  
+    .menu-icon {
+      display: flex;
+    }
+  
+    /* Show menu when hamburger is clicked */
+    .navigation.active {
+      display: block;
+    }
+  }
+  
+  /* Styling for Logout button */
+  .logout-icon {
+    cursor: pointer;
+    color: white;
+    background-color: red;  /* Red background */
+    padding: 8px 16px;       /* Some padding */
+    border-radius: 4px;      /* Rounded corners */
+    font-weight: bold;       /* Bold text */
+    text-align: center;
+    transition: background-color 0.3s ease;  /* Smooth background color transition */
+  }
+  
+  /* Change background color on hover */
+  .logout-icon:hover {
+    background-color: darkred;  /* Darker red on hover */
+  }
+  
