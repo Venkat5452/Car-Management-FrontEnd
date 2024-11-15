@@ -108,4 +108,10 @@ MYCARFRONTEND/
 
 ![image](https://github.com/user-attachments/assets/f564aac0-5730-48b4-ba66-609bb8acbc59)
 
+![image](https://github.com/user-attachments/assets/3752b78b-76fe-427f-9b4e-f1cabe63b51c)
+
+![image](https://github.com/user-attachments/assets/c14b82ce-5428-43b3-9409-a1cf5aaa5361)
+
+
+
 
