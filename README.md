@@ -52,6 +52,7 @@ This is the frontend repository for the **Car Management** application, a platfo
    ```bash
    npm start
 ### Folder Structure
+```bash
 MYCARFRONTEND/
 ├── build/                          # Production build output
 ├── node_modules/                   # Dependencies
@@ -89,7 +90,7 @@ MYCARFRONTEND/
 │   │   ├── UpdateCar/              # UpdateCar component
 │   │   │   ├── UpdateCar.css
 │   │   │   └── UpdateCar.js
-│   │   └── helper.js               # Helper Link
+│   │   └── helper.js               # Helper functions
 │   ├── App.css                     # Main CSS for the app
 │   ├── App.js                      # Main application component
 │   ├── App.test.js                 # Test file for App component
@@ -103,3 +104,4 @@ MYCARFRONTEND/
 ├── package-lock.json               # Lockfile for npm dependencies
 ├── package.json                    # Project dependencies and scripts
 └── README.md                       # Project documentation
+
