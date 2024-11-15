@@ -2,16 +2,21 @@
 
 This is the frontend repository for the **Car Management** application, a platform that allows users to manage car listings by adding, updating, viewing, and deleting entries. The frontend is built using modern web technologies and interacts with the backend API for data management.
 
+## Live Demo
+- **Application**: [https://mycarmanagement.netlify.app/](https://mycarmanagement.netlify.app/)  
+  *(Note: Backend is hosted on a free server, which may cause a delay in responses)*
+
+## Backend Repository
+- [Backend GitHub Repository](https://github.com/Venkat5452/Car-Management-Backend)
+
+
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Live Demo](#live-demo)
 - [Setup and Installation](#setup-and-installation)
 - [Environment Variables](#environment-variables)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - User authentication (sign up, login, password reset with OTP verification).
@@ -24,13 +29,6 @@ This is the frontend repository for the **Car Management** application, a platfo
 - **Backend**: Nodejs, ExpressJs, MongoDB
 - **State Management**: React Context API
 - **HTTP Client**: Axios
-
-## Live Demo
-- **Application**: [https://mycarmanagement.netlify.app/](https://mycarmanagement.netlify.app/)  
-  *(Note: Backend is hosted on a free server, which may cause a delay in responses)*
-
-## Backend Repository
-- [Backend GitHub Repository](https://github.com/Venkat5452/Car-Management-Backend)
 
 ## Setup and Installation
 
@@ -48,7 +46,8 @@ This is the frontend repository for the **Car Management** application, a platfo
 3. **Update Helper.js File with backend URL:**
    ```bash
    export const BASE_URL="https://car-management-backend-vquj.onrender.com";
-4. **Usage:**
+
+### Usage:
    ```bash
    npm start
 ### Folder Structure
