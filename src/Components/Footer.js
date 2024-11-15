@@ -16,11 +16,10 @@ const Footer = () => {
         <div className="footer-nav">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://www.spyne.ai/contact-us" target="_blank" rel="noreferrer">Contact</a></li>
+            <li><a href="https://www.spyne.ai/about-us" target="_blank" rel="noreferrer">About Us</a></li>
+            <li><a href="https://www.spyne.ai/faqs" target="_blank" rel="noreferrer">FAQs</a></li>
           </ul>
         </div>
 

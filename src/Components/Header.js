@@ -32,10 +32,9 @@ const Header = () => {
         <ul>
           <li><Link to="/">Home</Link></li>
           {isLoggedIn && (<li><Link to="/dashboard">Dashboard</Link></li>)}
-          <li><Link to="/">Features</Link></li>
-          <li><Link to="/">Pricing</Link></li>
-          <li><Link to="/">Contact</Link></li>
-          <li><Link to="/">About Us</Link></li>
+          <li><Link to="https://www.spyne.ai/contact-us" target="_blank" rel="noreferrer">Contact</Link></li>
+          <li><Link to="https://www.spyne.ai/about-us" target="_blank" rel="noreferrer">About Us</Link></li>
+          <li><Link to="https://www.spyne.ai/faqs" target="_blank" rel="noreferrer">FAQs</Link></li>
           {isLoggedIn && (
             
             <li>

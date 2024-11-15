@@ -89,7 +89,7 @@ const Dashboard = () => {
 
       {/* User's Cars Section */}
       <div className="section">
-        <h2>Your Cars</h2>
+        <h2>My Cars</h2>
         <div className="car-list">
           {filteredCars(userCars).length === 0 ? (
             <p>No cars found</p> // Message when no cars are found
